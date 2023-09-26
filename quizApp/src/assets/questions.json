@@ -1,0 +1,222 @@
+[
+    {
+        "questionId": 1,
+        "question" : "JSON stands for _______.",
+        "options": [
+            {
+                "answer": "JavaScript Object Notation",
+                "isCorrect": true
+            },
+            {
+                "answer": "Java Object Notation",
+                "isCorrect": false
+            },
+            {
+                "answer": "JavaScript Object Normalization",
+                "isCorrect": false
+            },
+            {
+                "answer": "JavaScript Object-Oriented Notation",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionId": 2,
+        "question" : "JSON is a _____ for storing and transporting data.",
+        "options": [
+            {
+                "answer": "xml format",
+                "isCorrect": false
+            },
+            {
+                "answer": "text format",
+                "isCorrect": true
+            },
+            {
+                "answer": "JavaScript",
+                "isCorrect": false
+            },
+            {
+                "answer": "php format",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionId": 3,
+        "question" : "The JSON syntax is a subset of the _____ syntax.",
+        "options": [
+            {
+                "answer": "Ajax",
+                "isCorrect": false
+            },
+            {
+                "answer": "Php",
+                "isCorrect": false
+            },
+            {
+                "answer": "HTML",
+                "isCorrect": false
+            },
+            {
+                "answer": "JavaScript",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionId": 4,
+        "question" : "Who is the creator of JSON?",
+        "options": [
+            {
+                "answer": "Alvin Alexander",
+                "isCorrect": false
+            },
+            {
+                "answer": "Rasmus Lerdorf",
+                "isCorrect": false
+            },
+            {
+                "answer": "Douglas Crockford",
+                "isCorrect": true
+            },
+            {
+                "answer": "Jesse James Garrett",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionId": 5,
+        "question" : "Which of the following statement is correct for AngularJS?",
+        "options": [
+            {
+                "answer": "AngularJS is an HTML framework",
+                "isCorrect": false
+            },
+            {
+                "answer": "AngularJS is a Java framework",
+                "isCorrect": false
+            },
+            {
+                "answer": "AngularJS is a JavaScript framework",
+                "isCorrect": true
+            },
+            {
+                "answer": "AngularJS is a SQL framework",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionId": 6,
+        "question" : "On which of the Architectural pattern AngularJS is based?",
+        "options": [
+            {
+                "answer": "Observer Pattern",
+                "isCorrect": false
+            },
+            {
+                "answer": "Decorator pattern",
+                "isCorrect": false
+            },
+            {
+                "answer": "MVC Architecture pattern",
+                "isCorrect": false
+            },
+            {
+                "answer": "MVVM Architectural pattern",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionId": 7,
+        "question" : "AngularJS is perfect for?",
+        "options": [
+            {
+                "answer": "SPAs",
+                "isCorrect": true
+            },
+            {
+                "answer": "MPAs",
+                "isCorrect": false
+            },
+            {
+                "answer": "DPAs",
+                "isCorrect": false
+            },
+            {
+                "answer": "CPAs",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionId": 8,
+        "question" : "Which of the following is the correct syntax for writing AngularJS expressions?",
+        "options": [
+            {
+                "answer": "(expression)",
+                "isCorrect": false
+            },
+            {
+                "answer": "{{expression}}",
+                "isCorrect": true
+            },
+            {
+                "answer": "{{{expression}}}",
+                "isCorrect": false
+            },
+            {
+                "answer": "[expression]",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionId": 9,
+        "question" : "Which of the following directive is used to bind the application data to the HTML view in AngularJS?",
+        "options": [
+            {
+                "answer": "ng-app directive",
+                "isCorrect": false
+            },
+            {
+                "answer": "ng-model directive",
+                "isCorrect": false
+            },
+            {
+                "answer": "ng-bind directive",
+                "isCorrect": true
+            },
+            {
+                "answer": "ng-init directive",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionId": 10,
+        "question" : "Which of the following syntax is correct for applying multiple filters in AngularJS?",
+        "options": [
+            {
+                "answer": "{{ expression | filter1 | filter2 | ... }}",
+                "isCorrect": true
+            },
+            {
+                "answer": "{{ expression | {filter1} | {filter2} | ... }}",
+                "isCorrect": false
+            },
+            {
+                "answer": "{{ expression - {filter1} - {filter2} - ... }}",
+                "isCorrect": false
+            },
+            {
+                "answer": "{{ {filter1} | {filter2} | ...-expression}}",
+                "isCorrect": false
+            }
+        ]
+    }
+]
