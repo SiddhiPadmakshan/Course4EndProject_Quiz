@@ -17,14 +17,12 @@ export class AppComponent implements OnInit{
   myInterval!:number
   correctAnswerCount: number = 0;
   
-  constructor(private http: HttpClient){
-    
-  }
+  constructor(private http: HttpClient){}
 
   ngOnInit(): void {
     this.loadQuestions();
-    
   }  
+
   loadQuestions(){
     this.http.get("assets/questions.json").subscribe((res:any)=>{
       this.questionsList = res;
@@ -47,9 +45,6 @@ export class AppComponent implements OnInit{
     if(this.currentQuestionNumber < this.questionsList.length){
     this.currentQuestionNumber++;
     this.remainingTime = 15;
-    }
-    else{
-      
     }
   }
 
@@ -77,11 +72,9 @@ getResult(){
   this.quizEnded = true;
   this.showQuiz = false;
 }
-
   showQuizPopUp() {
     this.showWarning = false;
     this.showQuiz = true;
-    
   }
   retakeQuiz(){
     window.location.reload();
@@ -89,7 +82,6 @@ getResult(){
   exitQuiz(){
     window.location.reload();
   }
-
   hideQuizPopUp() {
     this.showWarning = false;
     this.showQuiz = false;
