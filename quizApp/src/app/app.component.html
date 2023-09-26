@@ -80,13 +80,13 @@
   <!-- Show Quiz ended button -->
   <div class="h-100 w-100 d-flex align-items-center justify-content-center" style="position: absolute;">
     <div [ngClass]="quizEnded ? 'text-dark' : 'd-none d-print-block'" style="z-index: 1; width: 50%;">
-      <div class="card shadow" style="height: 45vh;">
+      <div class="card shadow">
         <div class="card-header">
           <div class="pt-2 h4" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">You've Completed Your Quiz!</div>
         </div>
         <div class="card-body">
-          <div class="card-title  mb-3 mt-2" style="font-family: Tahoma, sans-serif; font-weight: 700;" *ngIf="correctAnswerCount > (questionsList.length / 1.5)" ><span>Congratulation!!! You have scored <span class="text-info">{{ correctAnswerCount }} out of {{ questionsList.length }}</span></span></div>
-          <div class="card-title  mb-3 mt-2" style="font-family: Tahoma, sans-serif; font-weight: 700;" *ngIf="correctAnswerCount <= (questionsList.length / 1.5)"><span>Try Again!!! You can do better. Your score is <span class="text-info">{{ correctAnswerCount }} out of {{ questionsList.length }}</span></span></div>
+          <div class="card-title  mb-3 mt-2" style="font-family: Tahoma, sans-serif; font-weight: 700; font-size: 16px;" *ngIf="correctAnswerCount > (questionsList.length / 1.5)" ><span>Congratulation!!!🎊🎉 You have scored <span class="text-info">{{ correctAnswerCount }} out of {{ questionsList.length }}</span></span></div>
+          <div class="card-title  mb-3 mt-2" style="font-family: Tahoma, sans-serif; font-weight: 700; font-size: 16px;" *ngIf="correctAnswerCount <= (questionsList.length / 1.5)"><span>Try Again!!!😕 You can do better. Your score is <span class="text-info">{{ correctAnswerCount }} out of {{ questionsList.length }}</span></span></div>
         </div>
         <div class="card-footer text-muted">
           <a (click)="retakeQuiz()"
