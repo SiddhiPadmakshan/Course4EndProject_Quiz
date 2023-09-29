@@ -1,220 +1,286 @@
 [
     {
         "questionId": 1,
-        "question" : "JSON stands for _______.",
+        "question" : "What is the maximum number of Members in Lok Sabha?",
         "options": [
             {
-                "answer": "JavaScript Object Notation",
+                "answer": "512",
+                "isCorrect": false
+            },
+            {
+                "answer": "542",
+                "isCorrect": false
+            },
+            {
+                "answer": "552",
                 "isCorrect": true
             },
             {
-                "answer": "Java Object Notation",
-                "isCorrect": false
-            },
-            {
-                "answer": "JavaScript Object Normalization",
-                "isCorrect": false
-            },
-            {
-                "answer": "JavaScript Object-Oriented Notation",
+                "answer": "532",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionId": 2,
-        "question" : "JSON is a _____ for storing and transporting data.",
+        "question" : "Which Veda depicts the information about the most ancient Vedic age culture?",
         "options": [
             {
-                "answer": "xml format",
+                "answer": "Samaveda",
                 "isCorrect": false
             },
             {
-                "answer": "text format",
+                "answer": "Rig Veda",
                 "isCorrect": true
             },
             {
-                "answer": "JavaScript",
+                "answer": "Atharvaveda",
                 "isCorrect": false
             },
             {
-                "answer": "php format",
+                "answer": "Yajurveda",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionId": 3,
-        "question" : "The JSON syntax is a subset of the _____ syntax.",
+        "question" : "Who was the first Tirthankara of the Jains?",
         "options": [
             {
-                "answer": "Ajax",
+                "answer": "Ajitnath",
                 "isCorrect": false
             },
             {
-                "answer": "Php",
+                "answer": "Parshwnath",
                 "isCorrect": false
             },
             {
-                "answer": "HTML",
+                "answer": "Aristhenemi",
                 "isCorrect": false
             },
             {
-                "answer": "JavaScript",
+                "answer": "Rishabhdev",
                 "isCorrect": true
             }
         ]
     },
     {
         "questionId": 4,
-        "question" : "Who is the creator of JSON?",
+        "question" : "The maginot line exists between which country?",
         "options": [
             {
-                "answer": "Alvin Alexander",
+                "answer": "Germany and Poland",
                 "isCorrect": false
             },
             {
-                "answer": "Rasmus Lerdorf",
+                "answer": "Namibia and Angola",
                 "isCorrect": false
             },
             {
-                "answer": "Douglas Crockford",
+                "answer": "France and Germany",
                 "isCorrect": true
             },
             {
-                "answer": "Jesse James Garrett",
+                "answer": "USA and Canada",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionId": 5,
-        "question" : "Which of the following statement is correct for AngularJS?",
+        "question" : "The first pico satellite of India is- ",
         "options": [
             {
-                "answer": "AngularJS is an HTML framework",
+                "answer": "ANUSAT",
                 "isCorrect": false
             },
             {
-                "answer": "AngularJS is a Java framework",
+                "answer": "INSAT",
                 "isCorrect": false
             },
             {
-                "answer": "AngularJS is a JavaScript framework",
+                "answer": "STUDSAT",
                 "isCorrect": true
             },
             {
-                "answer": "AngularJS is a SQL framework",
+                "answer": "GSAT-4",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionId": 6,
-        "question" : "On which of the Architectural pattern AngularJS is based?",
+        "question" : "Couple burial was found in which of the following Harappan sites?",
         "options": [
             {
-                "answer": "Observer Pattern",
+                "answer": "Harappa",
                 "isCorrect": false
             },
             {
-                "answer": "Decorator pattern",
+                "answer": "Chanhudado",
                 "isCorrect": false
             },
             {
-                "answer": "MVC Architecture pattern",
+                "answer": "Mohenjodaro",
                 "isCorrect": false
             },
             {
-                "answer": "MVVM Architectural pattern",
+                "answer": "Lothal",
                 "isCorrect": true
             }
         ]
     },
     {
         "questionId": 7,
-        "question" : "AngularJS is perfect for?",
+        "question" : "Which of the following is known as the Diamond City of India?",
         "options": [
             {
-                "answer": "SPAs",
+                "answer": "Panna",
                 "isCorrect": true
             },
             {
-                "answer": "MPAs",
+                "answer": "Mumbai",
                 "isCorrect": false
             },
             {
-                "answer": "DPAs",
+                "answer": "Jaipur",
                 "isCorrect": false
             },
             {
-                "answer": "CPAs",
+                "answer": "Surat",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionId": 8,
-        "question" : "Which of the following is the correct syntax for writing AngularJS expressions?",
+        "question" : "Where is the National Institute Agricultural Marketing (NIAM) located?",
         "options": [
             {
-                "answer": "(expression)",
+                "answer": "Hisar",
                 "isCorrect": false
             },
             {
-                "answer": "{{expression}}",
+                "answer": "Jaipur",
                 "isCorrect": true
             },
             {
-                "answer": "{{{expression}}}",
+                "answer": "New Delhi",
                 "isCorrect": false
             },
             {
-                "answer": "[expression]",
+                "answer": "Bhopal",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionId": 9,
-        "question" : "Which of the following directive is used to bind the application data to the HTML view in AngularJS?",
+        "question" : "Kalinga's King Kharvela was associated with which of the following dynasty? ",
         "options": [
             {
-                "answer": "ng-app directive",
+                "answer": "Rath-Bhojak dynasty",
                 "isCorrect": false
             },
             {
-                "answer": "ng-model directive",
+                "answer": "Satvahana dynasty",
                 "isCorrect": false
             },
             {
-                "answer": "ng-bind directive",
+                "answer": "Mahameghavahana dynasty",
                 "isCorrect": true
             },
             {
-                "answer": "ng-init directive",
+                "answer": "Haryanka dynasty",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionId": 10,
-        "question" : "Which of the following syntax is correct for applying multiple filters in AngularJS?",
+        "question" : "Defeat of which dynasty paved way for the establishment of Mauryan dynasty?",
         "options": [
             {
-                "answer": "{{ expression | filter1 | filter2 | ... }}",
+                "answer": "Nanda Dynasty",
                 "isCorrect": true
             },
             {
-                "answer": "{{ expression | {filter1} | {filter2} | ... }}",
+                "answer": "Chandela Dynasty",
                 "isCorrect": false
             },
             {
-                "answer": "{{ expression - {filter1} - {filter2} - ... }}",
+                "answer": "Aryanka Dynasty",
                 "isCorrect": false
             },
             {
-                "answer": "{{ {filter1} | {filter2} | ...-expression}}",
+                "answer": "Hoysala Dynasty",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionId": 11,
+        "question" : "How many members of the Indian Army discovered World War II US Air Force aircraft?",
+        "options": [
+            {
+                "answer": "12",
+                "isCorrect": true
+            },
+            {
+                "answer": "5",
+                "isCorrect": false
+            },
+            {
+                "answer": "20",
+                "isCorrect": false
+            },
+            {
+                "answer": "8",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionId": 12,
+        "question" : "Impeachment of President can be initiated in which house of parliament?",
+        "options": [
+            {
+                "answer": "Rajya Sabha",
+                "isCorrect": false
+            },
+            {
+                "answer": "Lok Sabha",
+                "isCorrect": false
+            },
+            {
+                "answer": "in both houses same time",
+                "isCorrect": false
+            },
+            {
+                "answer": "either house of parliament",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionId": 13,
+        "question" : "Who discovered bacteria?",
+        "options": [
+            {
+                "answer": "Louis Pasteur",
+                "isCorrect": false
+            },
+            {
+                "answer": "Leeuwenhoek",
+                "isCorrect": true
+            },
+            {
+                "answer": "Robert Hooke",
+                "isCorrect": false
+            },
+            {
+                "answer": "Torricelli",
                 "isCorrect": false
             }
         ]
